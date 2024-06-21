@@ -1,0 +1,36 @@
+Open4Tech website
+
+Tema:
+- filme
+- restaurant
+- game shop
+
+Possible components
+------------------
+gallery view
+carousel
+stepper
+cards
+layout (flex & grid)
+expansion pannels
+tabs
+forms
+navbar
+tree
+dockable sidepanel
+buttom panel
+dialog
+tables
+calendar
+slider
+pick list
+timeline
+
+Links
+------------------
+https://www.youtube.com/watch?v=rPlwsRJZ_EM&list=WL&index=6&t=324s
+https://www.youtube.com/@Nova_Designs_/videos
+https://www.youtube.com/watch?v=htGfnF1zN4g&list=PLD9xos4mnoHSIDnJjGmhRrxRmHGS8nF91&index=7
+
+
+https://classroom.google.com/u/1/c/NDY5ODE4NDUyOTkz/m/NDc5NTE4OTEzNDc3/details

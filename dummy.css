@@ -1,0 +1,98 @@
+/* 
+    .class {
+        BOX PROPERTIES
+        TEXT PROPERTIES
+        POSITION PROPETIES
+    }
+*/
+
+.dummy {
+    /* BOX PROPERTIES */
+    
+    /*
+        - width, style, color 
+    */
+    border: 2px solid var(--ACCENT-COLOR);
+    border-radius: 10px;
+    
+    padding: 16px;
+    margin: 8px;
+    
+    width: 256px;
+    height: auto;
+    
+    background-color: white;
+    /* 
+        - value order: horizontal vertical blur spread color 
+        - multiple shadows support by adding a comma
+    */
+    box-shadow: 0px 4px 4px 0px var(--LIGHT-PRIMARY-COLOR);
+    /* -------------------------------------------------------------------- */
+
+    /* TEXT PROPERTIES */
+    text-align: left;
+    text-align-last: center;
+
+    letter-spacing: 1px;
+    line-height: 16px;
+    word-spacing: 2px;
+
+    font-size: 10px;
+    font-weight: bold;
+
+    color: var(--PRIMARY-TEXT-COLOR);
+    /* text-decoration-line: overline underline line-through; */
+    text-transform: lowercase; 
+    /* -------------------------------------------------------------------- */
+
+    /* POSITION PROPETIES */
+}
+
+.dummy-p {
+    max-width: 512;
+    min-width: 256;
+    width: auto;
+
+    text-transform: none;
+    text-align: left;
+    font-weight: lighter;
+
+    margin: 8px;
+    padding: 8px;
+}
+
+.dummy-img {
+    box-shadow: 0px 0px 8px 8px var(--ACCENT-COLOR);
+    border-radius: 50%;   
+    outline: 8px dashed var(--ACCENT-COLOR);
+    outline-offset: 16px;   
+    margin-top: 16px;
+}
+
+.dummy-h {
+    margin-top: 48px;
+
+}
+
+.dummy-container-flex {
+    /* POSITION PROPETIES */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* Horizontal Position for row or Vertical Position for column*/
+    justify-content: flex-start;
+    
+    /* Vertical Position on the row or  Horizontal Position for column */
+    align-items: stretch;
+    
+    /* Vertical Position of whole container or Horizontal Position*/
+    align-content: flex-start;
+
+    width: 100%;
+    height: auto;
+}
+
+.dummy-container-grid {
+    display: grid;
+}

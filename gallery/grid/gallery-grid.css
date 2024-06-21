@@ -1,0 +1,37 @@
+.gallery-grid-container{
+    
+    margin: 16px;
+    padding: 16px;
+
+    box-shadow: 4px 4px 4px 0px;
+    border-radius: 16px;
+
+    width: auto;
+    height: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+
+    gap: 16px;
+
+    background-color: var(--LIGHT-PRIMARY-COLOR);
+}
+
+.gallery-grid-img {
+    
+    width: 100%;
+    height: 100%;
+    
+    box-shadow: 4px 4px 4px 0px;
+    border-radius: 16px;
+}
+
+.gallery-grid-img.c-2 {
+    grid-column: auto /span 2
+}
+
+.gallery-grid-img.r-2 {
+    grid-row: auto /span 2
+}

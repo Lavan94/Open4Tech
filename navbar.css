@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: var(--DARK-PRIMARY-COLOR);
+    
+    width: fit;
+    height: auto;
+
+    color: var(--TEXT-ICONS-COLOR);
+    
+    box-shadow: 0px 4px 8px 0px black;
+
+    display: grid;
+
+    align-items: center;
+}
+
+
+
+.navbar-header {
+    text-align: center;
+    width: fit-content;
+    height: auto;
+
+    font-size: 32px;
+    margin: 16px;
+    font-weight: bold;
+
+    grid-column: 1;
+}
+
+.navbar-button-container {
+    margin: 16px;
+
+    width: auto;
+    height: auto;
+    
+    grid-column: 2;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-button {
+    height: var(--BUTTON-HEIGHT);
+    width: var(--BUTTON-WIDTH);
+
+    background-color: rgba(255, 0, 0, 0);
+    
+    border: 1px solid var(--TEXT-ICONS-COLOR);
+    border-radius: 8px;
+    
+    margin: 4px;
+    padding: 4px;
+}
+
+.navbar-button:hover{
+    background-color: var(--LIGHT-PRIMARY-COLOR);
+}
+
+.navbar-button:active{
+    background-color: var(--ACCENT-COLOR);
+    border: none;
+}
+
+.navbar-button.current{
+    border: 4px solid var(--ACCENT-COLOR);
+}
+
+.navbar-button-icon {
+    height: 100%;
+    width: 100%;
+
+    fill: var(--TEXT-ICONS-COLOR);
+}
+
+.navbar-button-icon {
+    height: 100%;
+    width: 100%;
+
+    fill: var(--TEXT-ICONS-COLOR);
+}
+
+.navbar-button-icon:active {
+    height: 100%;
+    width: 100%;
+
+    fill: var(--DARK-PRIMARY-COLOR)
+}
+
+.navbar-button.current>.navbar-button-icon {
+    height: 100%;
+    width: 100%;
+
+    fill: var(--ACCENT-COLOR)
+}
